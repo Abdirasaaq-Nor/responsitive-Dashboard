@@ -1,3 +1,15 @@
+const  currenTitle = document.title
+
+window.addEventListener('blur', () => {
+        document.title = 'you are away'
+})
+
+
+window.addEventListener('focus', () => {
+        document.title = currenTitle;
+})
+
+
 const toggle  = document.querySelector('#toggle')
 const nav_item = document.querySelector('.nav_item')
 const right_bottom_side = document.querySelector('.right_bottom_side')
