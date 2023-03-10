@@ -2,6 +2,7 @@ const  currenTitle = document.title
 
 window.addEventListener('blur', () => {
         document.title = 'you are away'
+        
 })
 
 

@@ -4,6 +4,17 @@
         box-sizing: border-box;
       
 }
+/* body{
+        overflow: scroll;
+} */
+/* ..................  web title backgorund color*/
+.title_{
+        background-color: #214E83;
+        color: white;
+
+}
+
+/* ............. */
 #left{
         float: left;
         margin-top: 0;
@@ -216,7 +227,7 @@ nav ul li a span{
         align-items: center;
         color: white;
         border-radius: 10px;
-       cursor: pointer;
+        cursor: pointer;
 }
 .course_1 i{
         font-size: 25px;
@@ -623,6 +634,13 @@ nav ul li a span{
         border-radius: 4px;
         color: white;
 }
+.students{
+        border-collapse: collapse;
+        width: 100%;
+        cursor: pointer;
+        overflow-x: scroll;
+      
+}
 
 
 
@@ -647,6 +665,7 @@ nav ul li a span{
                 width: 100%;
                 cursor: pointer;
                 overflow-x: scroll;
+             
         }
         .course_1{
                 background-color: #214E83;
@@ -658,7 +677,7 @@ nav ul li a span{
                 align-items: center;
                 color: white;
                 border-radius: 10px;
-               cursor: pointer;
+                cursor: pointer;
         }
         .course_2{
                 background-color: #006666;
