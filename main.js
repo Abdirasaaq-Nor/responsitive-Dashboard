@@ -1,3 +1,4 @@
+// ..................... webiste title name change ...........
 const  currenTitle = document.title
 
 window.addEventListener('blur', () => {
@@ -10,7 +11,7 @@ window.addEventListener('focus', () => {
         document.title = currenTitle;
 })
 
-
+// ....................... side menu nav .....................
 const toggle  = document.querySelector('#toggle')
 const nav_item = document.querySelector('.nav_item')
 const right_bottom_side = document.querySelector('.right_bottom_side')
@@ -36,7 +37,7 @@ toggle.addEventListener('click', () => {
 })
 
 
-
+// .........................   user icon or image ..............
 
 const image_toggle = document.querySelector('#image_toggle')
 const admin_info  = document.querySelector('.admin_info')
@@ -49,10 +50,3 @@ image_toggle.addEventListener('click', () => {
 })
 
 
-// toggle.addEventListener('click', () => {
-//         if(nav_item.classList.contains('nav_item')){
-//                 nav_item.style.display = 'none'
-//         } else{
-//                 nav_item.style.display = "block"
-//         }
-// })

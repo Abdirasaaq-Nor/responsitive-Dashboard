@@ -95,7 +95,7 @@ nav ul li a span{
 /* ................................. log out btn ....................... */
 .btn{
         margin-left: 10px;
-        margin-top: 60px;
+        margin-top: 30px;
         
 
 }
@@ -412,7 +412,7 @@ nav ul li a span{
         width: 100%;
         cursor: pointer;
         margin-top: 10px;
-      
+        
       
 }
 .students td {
@@ -450,9 +450,9 @@ nav ul li a span{
 
 
  @media only screen and (max-width: 600px) {
-        /* body {
-                  background-color: yellow;
-        } */
+        body {
+                 overflow-x: hidden;
+        }
         .right_info{
                 display: flex;
                 flex-direction: row;
@@ -529,7 +529,8 @@ nav ul li a span{
 }
 
 .course_3{
-        background-color: #214E83;
+      
+        background-color: #809fff;
         width: 120px;
         height: 100px;
         display: flex;
@@ -546,7 +547,8 @@ nav ul li a span{
 }
 
 .course_4{
-        background-color: #214E83;
+       
+        background-color: #663d00;
         width: 120px;
         height: 100px;
         display: flex;
@@ -563,7 +565,8 @@ nav ul li a span{
 }
 
 .course_5{
-        background-color: #214E83;
+     
+        background-color: #809fff;
         width: 120px;
         height: 100px;
         display: flex;
@@ -579,7 +582,7 @@ nav ul li a span{
         font-size: 20px;
 }
 .course_6{
-        background-color: #214E83;
+        background-color: #663d00;
         width: 120px;
         height: 100px;
         display: flex;
