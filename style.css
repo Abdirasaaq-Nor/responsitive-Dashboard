@@ -4,17 +4,10 @@
         box-sizing: border-box;
       
 }
-/* body{
-        overflow: scroll;
-} */
-/* ..................  web title backgorund color*/
-.title_{
-        background-color: #214E83;
-        color: white;
 
-}
 
-/* ............. */
+
+/* .............  dashboard consiste two types       left and rigth sides */
 #left{
         float: left;
         margin-top: 0;
@@ -51,13 +44,11 @@
 }
 
 
-/* ............................. nav menu list  */
-/* ................... nav_item  .... */
+/* ............................. nav menu list  desing ............................ */
+
 .nav_item{
         display: block;
-     
-        
-        
+       
 }
 
 
@@ -65,9 +56,7 @@ nav {
         background-color: #214E83;
         width: 200px;
         height: 700px;
-  
-        
-     
+   
 }
 nav ul{
         list-style: none;
@@ -93,7 +82,7 @@ nav ul li a{
 nav ul li a span{
         padding-left: 6px;
 }
-/* ................................. log out btn ....................... */
+/* ................................. log out btn desing ....................... */
 .btn{
         margin-left: 10px;
         margin-top: 30px;
@@ -119,8 +108,8 @@ nav ul li a span{
 }
 
 
-/* ......................... right section desing ............ */
-               /* .......... toggle menu ............. */
+/* ......................... navbar(toggle icon, input, notification, user_image   desing  ............ */
+               /* ..........  ............. */
 .toggle_side{
         display: flex;
         flex-direction: row;
@@ -175,16 +164,13 @@ nav ul li a span{
         
        
 }
-/* .................. user info  */
-/* ........................... image toggle ............. */
+/* .................. ................................user image info  ................. */
 .admin_info{
         background-color:  #214E83;
         height: 100px;
-        /* margin-top: 40px; */
         position: absolute;
         right: 1%;
         top: 9%;
-        /* margin-right: 70px; */
         display: none;
         box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
         border-radius: 10px;
@@ -211,7 +197,7 @@ nav ul li a span{
         margin-top: 10px;
 }
 
-/* ................................. right_bottom_side.................... */
+/* ................................. Dashboard  compnent section    Desing.................... */
 
 .right_bottom_side{
         margin-left: 20px;
@@ -224,7 +210,6 @@ nav ul li a span{
         
 }
 
-/* ........................ courses desing .................. */
 .course_1{
         background-color: #214E83;
         width: 200px;
@@ -438,7 +423,7 @@ nav ul li a span{
 }
 
 
-/* ......................design table ......... */
+/* .....................................................Table section desing  ......... */
 .recent_student{
         margin-left: 15px;
         margin-top: 20px;
@@ -480,7 +465,7 @@ nav ul li a span{
 }
 
 
-/* ...............responsitive for mobile  ................... */
+/* ....................................................responsitive for mobile  ................... */
 
 
 
@@ -497,6 +482,8 @@ nav ul li a span{
                 margin-right: 40px;
              
         }
+
+        /*................................ Dashboard  compnent section   desing  */
         
 .right_bottom_side{
          
@@ -652,6 +639,8 @@ nav ul li a span{
         padding-top: 5px;
         font-size: 20px;
 }
+
+/* ..................................... navbar(toggle icon, input, notification, user_image ) ....*/
 .input_ input{
         width: 140px;
         height: 40px;
@@ -675,6 +664,8 @@ nav ul li a span{
         border-radius: 4px;
         color: white;
 }
+
+/* ..........................................  table section desing ................... */
 .students{
         border-collapse: collapse;
         width: 100%;
@@ -689,11 +680,11 @@ nav ul li a span{
  }
 
 
-/* .................................................desing for Tablet............. */
+/* ................................................. responsitive desing for Tablet............. */
 
 @media (min-width: 600px) and (max-width: 1024px) {
 
-      
+      /* ...................................... Dashboard  compnent section desing  ................... */
         .right_bottom_side{
          
                 display: grid;
@@ -701,13 +692,7 @@ nav ul li a span{
                 grid-gap: 20px;
                 margin: 10px 2px 0px 10px;      
         }
-        .students{
-                border-collapse: collapse;
-                width: 100%;
-                cursor: pointer;
-                overflow-x: scroll;
-             
-        }
+       
         .course_1{
                 background-color: #214E83;
                 width: 150px;
@@ -799,6 +784,18 @@ nav ul li a span{
         cursor: pointer;
        
 }
+
+
+/* ..................................... table section desing  */
+.students{
+        border-collapse: collapse;
+        width: 100%;
+        cursor: pointer;
+        overflow-x: scroll;
+     
+}
+
+/* ........................ navabr (toggle, input, notification, user_image) ..........*/
 
         .input_ input{
                 width: 160px;

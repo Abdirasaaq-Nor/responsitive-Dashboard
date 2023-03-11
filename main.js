@@ -11,7 +11,7 @@ window.addEventListener('focus', () => {
         document.title = currenTitle;
 })
 
-// ....................... side menu nav .....................
+// ....................... side menu navbar item  .....................
 const toggle  = document.querySelector('#toggle')
 const nav_item = document.querySelector('.nav_item')
 const right_bottom_side = document.querySelector('.right_bottom_side')
