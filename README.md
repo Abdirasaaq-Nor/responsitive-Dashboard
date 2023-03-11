@@ -1,12 +1,12 @@
 # responsitive-Dashboard
-using HTML5 , CSS3 and Javascript
+using HTML5 , CSS3 and Javascript\
 
-Respositive E-learning Dashboard.
-you will learn this dashboard desing
-      1. css flex
-      2. Css grid layout
-      3. media queries for responsitive desing 
-      4. DOM javascript
+Respositive E-learning Dashboard.\
+you will learn this dashboard desing\
+      1. css flex\
+      2. Css grid layout\
+      3. media queries for responsitive desing \
+      4. DOM javascript\
  
  
  
